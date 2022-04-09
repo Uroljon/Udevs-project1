@@ -1,0 +1,14 @@
+.menu {
+    width: 990px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.menu li {
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+list-style: none;
+}

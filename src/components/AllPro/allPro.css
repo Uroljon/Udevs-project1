@@ -1,0 +1,57 @@
+.newProduct {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 207px;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.old_price {
+    text-decoration: line-through;
+}
+
+.card__btn {
+    width: 115px;
+    height: 40px;
+
+
+    background-color: #4D96FF;
+    border-radius: 6px;
+    color: #fff;
+
+    border: none;
+}
+
+.card__btn1 {
+    width: 115px;
+    height: 40px;
+
+
+    background-color: #CCCCCC;
+    border-radius: 6px;
+    color: #fff;
+
+    border: none;
+}
+
+.showAll {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.title__wrapper {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

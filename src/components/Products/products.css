@@ -1,0 +1,32 @@
+.newProduct {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 207px;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.old_price {
+    text-decoration: line-through;
+}
+
+.card__btn {
+    width: 115px;
+height: 40px;
+
+
+background-color: #4D96FF;
+border-radius: 6px;
+
+color: #fff;
+
+border: none;
+}
